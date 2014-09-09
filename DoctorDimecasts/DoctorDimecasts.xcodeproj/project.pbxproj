@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8A056CA19BF15EA00F5D758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A056C919BF15EA00F5D758 /* Foundation.framework */; };
+		F8A056CC19BF15EA00F5D758 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A056CB19BF15EA00F5D758 /* CoreGraphics.framework */; };
+		F8A056CE19BF15EA00F5D758 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A056CD19BF15EA00F5D758 /* UIKit.framework */; };
+		F8A056D419BF15EA00F5D758 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8A056D219BF15EA00F5D758 /* InfoPlist.strings */; };
+		F8A056D619BF15EA00F5D758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A056D519BF15EA00F5D758 /* main.m */; };
+		F8A056DA19BF15EA00F5D758 /* DCNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A056D919BF15EA00F5D758 /* DCNAppDelegate.m */; };
+		F8A056DD19BF15EA00F5D758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A056DB19BF15EA00F5D758 /* Main.storyboard */; };
+		F8A056E019BF15EA00F5D758 /* DCNMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A056DF19BF15EA00F5D758 /* DCNMasterViewController.m */; };
+		F8A056E319BF15EA00F5D758 /* DCNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A056E219BF15EA00F5D758 /* DCNDetailViewController.m */; };
+		F8A056E519BF15EA00F5D758 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A056E419BF15EA00F5D758 /* Images.xcassets */; };
+		F8A056EC19BF15EA00F5D758 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A056EB19BF15EA00F5D758 /* XCTest.framework */; };
+		F8A056ED19BF15EA00F5D758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A056C919BF15EA00F5D758 /* Foundation.framework */; };
+		F8A056EE19BF15EA00F5D758 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A056CD19BF15EA00F5D758 /* UIKit.framework */; };
+		F8A056F619BF15EA00F5D758 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8A056F419BF15EA00F5D758 /* InfoPlist.strings */; };
+		F8A056F819BF15EA00F5D758 /* DoctorDimecastsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A056F719BF15EA00F5D758 /* DoctorDimecastsTests.m */; };
+		F8A0570319BF17AC00F5D758 /* DCNEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A0570219BF17AC00F5D758 /* DCNEpisode.m */; };
+		F8A0570619BF183200F5D758 /* DCNEpisodeRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A0570519BF183200F5D758 /* DCNEpisodeRepository.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8A056EF19BF15EA00F5D758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8A056BE19BF15EA00F5D758 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A056C519BF15EA00F5D758;
+			remoteInfo = DoctorDimecasts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8A056C619BF15EA00F5D758 /* DoctorDimecasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorDimecasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A056C919BF15EA00F5D758 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8A056CB19BF15EA00F5D758 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8A056CD19BF15EA00F5D758 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8A056D119BF15EA00F5D758 /* DoctorDimecasts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoctorDimecasts-Info.plist"; sourceTree = "<group>"; };
+		F8A056D319BF15EA00F5D758 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8A056D519BF15EA00F5D758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8A056D719BF15EA00F5D758 /* DoctorDimecasts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoctorDimecasts-Prefix.pch"; sourceTree = "<group>"; };
+		F8A056D819BF15EA00F5D758 /* DCNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNAppDelegate.h; sourceTree = "<group>"; };
+		F8A056D919BF15EA00F5D758 /* DCNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNAppDelegate.m; sourceTree = "<group>"; };
+		F8A056DC19BF15EA00F5D758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8A056DE19BF15EA00F5D758 /* DCNMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNMasterViewController.h; sourceTree = "<group>"; };
+		F8A056DF19BF15EA00F5D758 /* DCNMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNMasterViewController.m; sourceTree = "<group>"; };
+		F8A056E119BF15EA00F5D758 /* DCNDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNDetailViewController.h; sourceTree = "<group>"; };
+		F8A056E219BF15EA00F5D758 /* DCNDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNDetailViewController.m; sourceTree = "<group>"; };
+		F8A056E419BF15EA00F5D758 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8A056EA19BF15EA00F5D758 /* DoctorDimecastsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorDimecastsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A056EB19BF15EA00F5D758 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8A056F319BF15EA00F5D758 /* DoctorDimecastsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoctorDimecastsTests-Info.plist"; sourceTree = "<group>"; };
+		F8A056F519BF15EA00F5D758 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8A056F719BF15EA00F5D758 /* DoctorDimecastsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoctorDimecastsTests.m; sourceTree = "<group>"; };
+		F8A0570119BF17AC00F5D758 /* DCNEpisode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCNEpisode.h; sourceTree = "<group>"; };
+		F8A0570219BF17AC00F5D758 /* DCNEpisode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCNEpisode.m; sourceTree = "<group>"; };
+		F8A0570419BF183200F5D758 /* DCNEpisodeRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCNEpisodeRepository.h; sourceTree = "<group>"; };
+		F8A0570519BF183200F5D758 /* DCNEpisodeRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCNEpisodeRepository.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8A056C319BF15EA00F5D758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A056CC19BF15EA00F5D758 /* CoreGraphics.framework in Frameworks */,
+				F8A056CE19BF15EA00F5D758 /* UIKit.framework in Frameworks */,
+				F8A056CA19BF15EA00F5D758 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A056E719BF15EA00F5D758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A056EC19BF15EA00F5D758 /* XCTest.framework in Frameworks */,
+				F8A056EE19BF15EA00F5D758 /* UIKit.framework in Frameworks */,
+				F8A056ED19BF15EA00F5D758 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8A056BD19BF15EA00F5D758 = {
+			isa = PBXGroup;
+			children = (
+				F8A056CF19BF15EA00F5D758 /* DoctorDimecasts */,
+				F8A056F119BF15EA00F5D758 /* DoctorDimecastsTests */,
+				F8A056C819BF15EA00F5D758 /* Frameworks */,
+				F8A056C719BF15EA00F5D758 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8A056C719BF15EA00F5D758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A056C619BF15EA00F5D758 /* DoctorDimecasts.app */,
+				F8A056EA19BF15EA00F5D758 /* DoctorDimecastsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8A056C819BF15EA00F5D758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8A056C919BF15EA00F5D758 /* Foundation.framework */,
+				F8A056CB19BF15EA00F5D758 /* CoreGraphics.framework */,
+				F8A056CD19BF15EA00F5D758 /* UIKit.framework */,
+				F8A056EB19BF15EA00F5D758 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8A056CF19BF15EA00F5D758 /* DoctorDimecasts */ = {
+			isa = PBXGroup;
+			children = (
+				F8A056D819BF15EA00F5D758 /* DCNAppDelegate.h */,
+				F8A056D919BF15EA00F5D758 /* DCNAppDelegate.m */,
+				F8A056DB19BF15EA00F5D758 /* Main.storyboard */,
+				F8A056DE19BF15EA00F5D758 /* DCNMasterViewController.h */,
+				F8A056DF19BF15EA00F5D758 /* DCNMasterViewController.m */,
+				F8A056E119BF15EA00F5D758 /* DCNDetailViewController.h */,
+				F8A056E219BF15EA00F5D758 /* DCNDetailViewController.m */,
+				F8A056E419BF15EA00F5D758 /* Images.xcassets */,
+				F8A056D019BF15EA00F5D758 /* Supporting Files */,
+				F8A0570119BF17AC00F5D758 /* DCNEpisode.h */,
+				F8A0570219BF17AC00F5D758 /* DCNEpisode.m */,
+				F8A0570419BF183200F5D758 /* DCNEpisodeRepository.h */,
+				F8A0570519BF183200F5D758 /* DCNEpisodeRepository.m */,
+			);
+			path = DoctorDimecasts;
+			sourceTree = "<group>";
+		};
+		F8A056D019BF15EA00F5D758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A056D119BF15EA00F5D758 /* DoctorDimecasts-Info.plist */,
+				F8A056D219BF15EA00F5D758 /* InfoPlist.strings */,
+				F8A056D519BF15EA00F5D758 /* main.m */,
+				F8A056D719BF15EA00F5D758 /* DoctorDimecasts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8A056F119BF15EA00F5D758 /* DoctorDimecastsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8A056F719BF15EA00F5D758 /* DoctorDimecastsTests.m */,
+				F8A056F219BF15EA00F5D758 /* Supporting Files */,
+			);
+			path = DoctorDimecastsTests;
+			sourceTree = "<group>";
+		};
+		F8A056F219BF15EA00F5D758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A056F319BF15EA00F5D758 /* DoctorDimecastsTests-Info.plist */,
+				F8A056F419BF15EA00F5D758 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8A056C519BF15EA00F5D758 /* DoctorDimecasts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A056FB19BF15EA00F5D758 /* Build configuration list for PBXNativeTarget "DoctorDimecasts" */;
+			buildPhases = (
+				F8A056C219BF15EA00F5D758 /* Sources */,
+				F8A056C319BF15EA00F5D758 /* Frameworks */,
+				F8A056C419BF15EA00F5D758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorDimecasts;
+			productName = DoctorDimecasts;
+			productReference = F8A056C619BF15EA00F5D758 /* DoctorDimecasts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8A056E919BF15EA00F5D758 /* DoctorDimecastsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A056FE19BF15EA00F5D758 /* Build configuration list for PBXNativeTarget "DoctorDimecastsTests" */;
+			buildPhases = (
+				F8A056E619BF15EA00F5D758 /* Sources */,
+				F8A056E719BF15EA00F5D758 /* Frameworks */,
+				F8A056E819BF15EA00F5D758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8A056F019BF15EA00F5D758 /* PBXTargetDependency */,
+			);
+			name = DoctorDimecastsTests;
+			productName = DoctorDimecastsTests;
+			productReference = F8A056EA19BF15EA00F5D758 /* DoctorDimecastsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8A056BE19BF15EA00F5D758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DCN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Peter Shearer";
+				TargetAttributes = {
+					F8A056E919BF15EA00F5D758 = {
+						TestTargetID = F8A056C519BF15EA00F5D758;
+					};
+				};
+			};
+			buildConfigurationList = F8A056C119BF15EA00F5D758 /* Build configuration list for PBXProject "DoctorDimecasts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8A056BD19BF15EA00F5D758;
+			productRefGroup = F8A056C719BF15EA00F5D758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8A056C519BF15EA00F5D758 /* DoctorDimecasts */,
+				F8A056E919BF15EA00F5D758 /* DoctorDimecastsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8A056C419BF15EA00F5D758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A056E519BF15EA00F5D758 /* Images.xcassets in Resources */,
+				F8A056D419BF15EA00F5D758 /* InfoPlist.strings in Resources */,
+				F8A056DD19BF15EA00F5D758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A056E819BF15EA00F5D758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A056F619BF15EA00F5D758 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8A056C219BF15EA00F5D758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A0570319BF17AC00F5D758 /* DCNEpisode.m in Sources */,
+				F8A056DA19BF15EA00F5D758 /* DCNAppDelegate.m in Sources */,
+				F8A056D619BF15EA00F5D758 /* main.m in Sources */,
+				F8A056E019BF15EA00F5D758 /* DCNMasterViewController.m in Sources */,
+				F8A056E319BF15EA00F5D758 /* DCNDetailViewController.m in Sources */,
+				F8A0570619BF183200F5D758 /* DCNEpisodeRepository.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A056E619BF15EA00F5D758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A056F819BF15EA00F5D758 /* DoctorDimecastsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8A056F019BF15EA00F5D758 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8A056C519BF15EA00F5D758 /* DoctorDimecasts */;
+			targetProxy = F8A056EF19BF15EA00F5D758 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8A056D219BF15EA00F5D758 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A056D319BF15EA00F5D758 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8A056DB19BF15EA00F5D758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A056DC19BF15EA00F5D758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8A056F419BF15EA00F5D758 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A056F519BF15EA00F5D758 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8A056F919BF15EA00F5D758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8A056FA19BF15EA00F5D758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8A056FC19BF15EA00F5D758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoctorDimecasts/DoctorDimecasts-Prefix.pch";
+				INFOPLIST_FILE = "DoctorDimecasts/DoctorDimecasts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8A056FD19BF15EA00F5D758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoctorDimecasts/DoctorDimecasts-Prefix.pch";
+				INFOPLIST_FILE = "DoctorDimecasts/DoctorDimecasts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8A056FF19BF15EA00F5D758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoctorDimecasts.app/DoctorDimecasts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoctorDimecasts/DoctorDimecasts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DoctorDimecastsTests/DoctorDimecastsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F8A0570019BF15EA00F5D758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoctorDimecasts.app/DoctorDimecasts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoctorDimecasts/DoctorDimecasts-Prefix.pch";
+				INFOPLIST_FILE = "DoctorDimecastsTests/DoctorDimecastsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8A056C119BF15EA00F5D758 /* Build configuration list for PBXProject "DoctorDimecasts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A056F919BF15EA00F5D758 /* Debug */,
+				F8A056FA19BF15EA00F5D758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A056FB19BF15EA00F5D758 /* Build configuration list for PBXNativeTarget "DoctorDimecasts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A056FC19BF15EA00F5D758 /* Debug */,
+				F8A056FD19BF15EA00F5D758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8A056FE19BF15EA00F5D758 /* Build configuration list for PBXNativeTarget "DoctorDimecastsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A056FF19BF15EA00F5D758 /* Debug */,
+				F8A0570019BF15EA00F5D758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8A056BE19BF15EA00F5D758 /* Project object */;
+}
